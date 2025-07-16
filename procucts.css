@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+}
+.card{
+    height: 67vh;
+    width: 32vh;
+    border-radius: 23px;
+    border: 8px solid #bbbaba;
+}
+.carImage{
+    width: 20vh;
+    height: 25vh;
+    border: 4px solid #bbbaba;
+    margin: 9px 0px 0px 38px;
+    border-radius: 27px;
+    padding: 10px;
+}
+.textName{
+    margin:25px 0px 15px 13px;
+    font-size: large;
+}
+.textQuantity{
+    margin: 20px 0px 20px 13px;
+    font-size: large;
+}
+.textPrice{
+    margin: 20px 0px 20px 13px;
+    font-size: large;
+}
+.textDiscountPer{
+    margin: 20px 0px 20px 13px;
+    font-size: large;
+}
+.textDiscountTotal{
+    margin: 20px 0px 20px 13px;
+    font-size: large;
+}
+.textTotal{
+    margin: 20px 0px 20px 13px;
+    font-size: large;
+}
+.Name{
+    margin-left: 22px;
+}
+.quantity{
+    margin-left: 98px;
+}
+.price{
+    margin-left:47%;
+}
+.discountPercentage{
+    margin-left: 22px;
+}
+.discountedTotal{
+    margin-left: 48px;
+}
+.Total{
+    margin-left: 48%;
+}
+.manCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    height: 67vh;
+}
+.searchInput{
+    width: 92%;
+    height: 45px;
+    font-size: large;
+    border: none;
+    outline: none;
+}
+.searchBar{
+    width: 73vh;
+    height: 47px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.searchImage{
+    width: 22px;
+}
+.cateGoryDiv{
+    display: flex;
+    justify-content: center;
+    gap: 31px;
+    margin: 40px 0px 45px;
+}
+.changePrice{
+    padding: 13px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 2px solid black;
+}
+.changeDisPer{
+        padding: 13px;
+        border-radius: 10px;
+        font-size: 18px;
+        border: 2px solid black;
+}
+.changeTatalPrice{
+    padding: 13px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 2px solid black;
+}
+.notProduct{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
